@@ -26,12 +26,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-!nz#p!h+y+rcv+81u^yhnhup#5o98m&=uf$)zuj78t6^$ceu+u'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = False
+DEBUG = False
 
-# ALLOWED_HOSTS = ['music-forum-backend.herokuapp.com']
-
-DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['music-forum-backend.herokuapp.com']
 
 # Application definition
 
@@ -153,7 +150,7 @@ REST_KNOX = {
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    'https://music-forum-backend.herokuapp.com'
+    'https://music-forum-backend.herokuapp.com/'
 ]
 
 CORS_ALLOW_METHODS = [
