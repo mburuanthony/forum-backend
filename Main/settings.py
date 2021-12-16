@@ -151,6 +151,7 @@ REST_KNOX = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     'https://music-forum-backend.herokuapp.com'
+    'https://forum-frontend.netlify.app'
 ]
 
 CORS_ALLOW_METHODS = [
